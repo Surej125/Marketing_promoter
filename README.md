@@ -32,10 +32,7 @@ The Marketing Assistant is a Streamlit-based application designed to assist with
 3. **Install Required Packages**
 
     ```
-    
     pip install -r requirements.txt
-    
-
     ```
 4. **Set Up Environment Variables**
 Create a ```.env``` file in the root directory of the project and add your LLM API key:
@@ -52,12 +49,12 @@ Create a ```.env``` file in the root directory of the project and add your LLM A
 1. Open your web browser and go to http://localhost:8501 to access the app.
 2. Enter the text you want to generate content for in the text area.
 3. Select the type of content you want to generate:
-- Sales copy
-- Tweet
-- Product description
+-   * Sales copy
+-   * Tweet
+-   * Product description
 4. Select the target age group:
-- Kid
-- Adult
-- Senior Citizen
+-   * Kid
+-   * Adult
+-   * Senior Citizen
 5. Adjust the word limit using the slider.
 6. Click the "Generate" button to produce the content.
